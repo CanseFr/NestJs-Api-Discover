@@ -14,6 +14,7 @@ async function bootstrap() {
     .setTitle('Median Rest Step ')
     .setDescription('The Median API description')
     .setVersion('0.1')
+    .addBearerAuth() // Help authorization for OpenApi
     .build();
 
   const document = SwaggerModule.createDocument(app, config);
