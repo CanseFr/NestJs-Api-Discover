@@ -29,6 +29,7 @@ export class AuthService {
     }
 
     return {
+      // Add info claims ...
       accessToken: this.jwtService.sign({ userId: user.id }),
     };
   }

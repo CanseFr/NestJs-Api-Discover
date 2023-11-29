@@ -46,6 +46,20 @@ $  docker-compose up
 $  Prisma Studio
 ```
 
+## Check OpenApi Page on 
+http://localhost:3000/api#/
+
+## Login with 
+```json
+{
+  "email": "sabin@adams.com",
+  "password": "password-sabin"
+}
+```
+
+## To gets user handlers
+
+
 ## Running the app
 
 ```bash
